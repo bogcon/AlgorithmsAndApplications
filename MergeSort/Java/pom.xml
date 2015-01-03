@@ -1,0 +1,91 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>ro.bogdanconstantinescu</groupId>
+	<artifactId>mergesort</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+
+	<name>MergeSort</name>
+	<url>https://github.com/bogcon/AlgorithmsAndApplications/tree/master/MergeSort</url>
+	<description>MergeSort Algorithm</description>
+	<inceptionYear>2013</inceptionYear>
+
+	<licenses>
+		<license>
+			<name>The MIT License</name>
+			<url>http://opensource.org/licenses/MIT</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>bc</id>
+			<name>Bogdan Constantinescu</name>
+			<email>bog_con@yahoo.com</email>
+			<url>http://bogdanconstantinescu.ro</url>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>+2</timezone>
+			<properties>
+				<picUrl>http://www.gravatar.com/avatar/46189d09e7033751591d1d3e895d9158
+				</picUrl>
+			</properties>
+		</developer>
+	</developers>
+
+	<organization>
+		<name>Bogdan Constantinescu</name>
+		<url>http://bogdanconstantinescu.ro</url>
+	</organization>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<scm>
+		<connection>scm:git:https://github.com/bogcon/AlgorithmsAndApplications</connection>
+		<url>https://github.com/bogcon/AlgorithmsAndApplications</url>
+		<developerConnection>scm:git:https://github.com/bogcon/AlgorithmsAndApplications</developerConnection>
+	</scm>
+
+	<issueManagement>
+		<url>https://github.com/bogcon/AlgorithmsAndApplications/issues</url>
+	</issueManagement>
+
+	<ciManagement>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/bogcon/AlgorithmsAndApplications</url>
+	</ciManagement>
+	
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.2</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.5</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<mainClass>ro.bogdanconstantinescu.mergesort.MergeSort</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
+

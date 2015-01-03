@@ -134,4 +134,5 @@ release.properties
 ### Pojects specific ###
 2Sum/C/2Sum
 QuickSort/C/QuickSort
+MergeSort/C/MergeSort
 
