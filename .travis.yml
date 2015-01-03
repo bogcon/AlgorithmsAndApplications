@@ -1,0 +1,15 @@
+# Travis CI configuration file
+language: java
+
+jdk:
+  - oraclejdk8
+  - openjdk7
+  - oraclejdk7
+  - openjdk6
+
+before_script:
+  - mvn -f 2Sum/Java/pom.xml clean install -DskipTests=true
+
+script:
+  - mvn -f 2Sum/Java/pom.xml test
+

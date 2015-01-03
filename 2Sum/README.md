@@ -1,5 +1,6 @@
 2Sum Problem
 ===================
+[![Build Status](https://secure.travis-ci.org/bogcon/AlgorithmsAndApplications.png?branch=master)](http://travis-ci.org/bogcon/AlgorithmsAndApplications)
 
 About
 ---------------------
