@@ -9,7 +9,9 @@ jdk:
 
 before_script:
   - mvn -f 2Sum/Java/pom.xml clean install -DskipTests=true
+  - mvn -f QuickSort/Java/pom.xml clean install -DskipTests=true
 
 script:
   - mvn -f 2Sum/Java/pom.xml test
+  - mvn -f QuickSort/Java/pom.xml test
 
