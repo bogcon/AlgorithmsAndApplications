@@ -56,6 +56,11 @@
 		<url>https://github.com/bogcon/AlgorithmsAndApplications/issues</url>
 	</issueManagement>
 
+	<ciManagement>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/bogcon/AlgorithmsAndApplications</url>
+	</ciManagement>
+	
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
