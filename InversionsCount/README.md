@@ -1,5 +1,6 @@
 Counting inversions in an array
 ===================
+[![Build Status](https://secure.travis-ci.org/bogcon/AlgorithmsAndApplications.png?branch=master)](http://travis-ci.org/bogcon/AlgorithmsAndApplications)
 
 About
 ------------
