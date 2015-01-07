@@ -22,7 +22,7 @@
  */
 int main(int argc, char** argv) {
 	printf("------ Begin InversionsCount ------\n");
-	int n, i = 0;
+	int n;
 	int *vectorToSort, *sortedVector;
 	clock_t start, end;
 	char error[128];

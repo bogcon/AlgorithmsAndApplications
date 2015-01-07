@@ -22,7 +22,7 @@
  */
 int main(int argc, char** argv) {
 	printf("------ Begin QuickSort ------\n");
-	int n, i = 0;
+	int n;
 	int* vectorToSort;
 	clock_t start, end;
 	char error[128];

@@ -12,7 +12,7 @@ Running code examples
 **C** implementation:
 ```sh
 cd C/
-gcc -o MergeSort MergeSort.c (Linux)
+gcc -o MergeSort MergeSort.c (Linux) or run the 'make' command
 ./MergeSort ../in/inputBig.txt (Linux)
 
 compile with Visual Studio | MinGW | DevC++ (Windows)

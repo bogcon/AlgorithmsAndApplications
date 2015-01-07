@@ -31,7 +31,7 @@ Running code examples
 **C** implementation:  
 ```sh
 cd C/
-gcc -o SumOfCompletionTime SumOfCompletionTime.c (Linux)
+gcc -o SumOfCompletionTime SumOfCompletionTime.c (Linux) or run the 'make' command
 ./SumOfCompletionTime sum ../in/inputBig.txt (Linux)
 ./SumOfCompletionTime division ../in/inputBig.txt (Linux)
 

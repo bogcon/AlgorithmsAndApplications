@@ -14,7 +14,7 @@ Running code examples
 **C** implementation:
 ```sh
 cd C/
-gcc -o QuickSort QuickSort.c (Linux)
+gcc -o QuickSort QuickSort.c (Linux) or run the 'make' command
 ./QuickSort ../in/inputBig.txt (Linux)
 
 compile with Visual Studio | MinGW | DevC++ (Windows)

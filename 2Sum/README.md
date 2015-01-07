@@ -14,7 +14,7 @@ Running code examples
 **C** implementation:
 ```sh
 cd C/  
-gcc -o 2Sum 2Sum.c (Linux)
+gcc -o 2Sum 2Sum.c (Linux) or run 'make' command
 ./2Sum ../in/inputBig.txt (Linux)
 
 compile with Visual Studio | MinGW | DevC++ (Windows)

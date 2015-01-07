@@ -11,7 +11,7 @@ Running code examples
 **C** implementation:
 ```sh
 cd C/
-gcc -o InversionsCount InversionsCount.c (Linux)
+gcc -o InversionsCount InversionsCount.c (Linux) or run the 'make' command
 ./InversionsCount ../in/inputBig.txt (Linux)
 
 compile with Visual Studio | MinGW | DevC++ (Windows) 
