@@ -3,13 +3,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>ro.bogdanconstantinescu</groupId>
-	<artifactId>sumofcompletiontime</artifactId>
+	<artifactId>medianmaintenance</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>SumOfCompletionTime</name>
-	<url>https://github.com/bogcon/AlgorithmsAndApplications/tree/master/SumOfCompletionTime</url>
-	<description>Greedy algorithm for minimizing the weighted sum of completion times.</description>
+	<name>Median Maintenance</name>
+	<url>https://github.com/bogcon/AlgorithmsAndApplications/tree/master/MedianMaintenance</url>
+	<description>The goal of this problem is to implement the "Median Maintenance" algorithm. The text file contains a list of n integers in unsorted order; you should treat this as a stream of numbers, arriving one by one. Letting xi denote the ith number of the file, the kth median mk is defined as the median of the numbers x1,…,xk. (So, if k is odd, then mk is ((k+1)/2)th smallest number among x1,…,xk; if k is even, then mk is the (k/2)th smallest number among x1,…,xk). That is, you should compute (m1 + m2 + m3 + . . . + mn)</description>
 	<inceptionYear>2013</inceptionYear>
 
 	<licenses>
@@ -56,6 +56,11 @@
 		<url>https://github.com/bogcon/AlgorithmsAndApplications/issues</url>
 	</issueManagement>
 
+	<ciManagement>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/bogcon/AlgorithmsAndApplications</url>
+	</ciManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -64,7 +69,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	
+
 	<build>
 		<plugins>
 			<plugin>
@@ -75,7 +80,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>ro.bogdanconstantinescu.sumofcompletiontime.Main</mainClass>
+							<mainClass>ro.bogdanconstantinescu.medianmaintenance.MedianMaintenance</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
@@ -83,4 +88,3 @@
 		</plugins>
 	</build>
 </project>
-

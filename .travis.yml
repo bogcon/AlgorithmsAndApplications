@@ -12,10 +12,12 @@ before_script:
   - mvn -f QuickSort/Java/pom.xml clean install -DskipTests=true
   - mvn -f MergeSort/Java/pom.xml clean install -DskipTests=true
   - mvn -f InversionsCount/Java/pom.xml clean install -DskipTests=true
+  - mvn -f MedianMaintenance/Java/pom.xml clean install -DskipTests=true
 
 script:
   - mvn -f 2Sum/Java/pom.xml test
   - mvn -f QuickSort/Java/pom.xml test
   - mvn -f MergeSort/Java/pom.xml test
   - mvn -f InversionsCount/Java/pom.xml test
+  - mvn -f MedianMaintenance/Java/pom.xml test
 
