@@ -62,4 +62,9 @@ GraphSCC.exe ../in/inputBig.txt (Windows)
 For the input files in `in/` folder the expected results are: 
  - `inputBig.txt`: 371762
  - `inputSmall.txt`: 6
- - `inputTiny.txt`: 3
+ - `inputTiny.txt`: 3  
+
+License
+---------------------
+`GraphSCC` is released under the `MIT License`.   
+You can find a copy of this license in [LICENSE.txt](LICENSE.txt).  

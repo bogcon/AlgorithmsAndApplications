@@ -58,5 +58,10 @@ For the input files in `in/` folder the expected results are:
  - *inputTiny.txt*: 19400
  - *inputSmall.txt*: 7078040
  - *inputMedium.txt*: 688694325
- - *inputBig.txt*: 67311454237    
+ - *inputBig.txt*: 67311454237  
+
+License
+---------------------
+`SumOfCompletionTime` is released under the `MIT License`.   
+You can find a copy of this license in [LICENSE.txt](LICENSE.txt).  
 

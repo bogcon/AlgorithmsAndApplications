@@ -54,3 +54,9 @@ Shortest path from 1 to 2 is: 1
 Shortest path from 1 to 3 is: 3  
 Shortest path from 1 to 4 is: 6  
 
+License
+---------------------
+`DijkstraShortestPath` is released under the `MIT License`.   
+You can find a copy of this license in [LICENSE.txt](LICENSE.txt).  
+
+

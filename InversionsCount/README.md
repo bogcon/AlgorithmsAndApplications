@@ -25,3 +25,8 @@ java -jar target/quicksort-1.0.0.jar ../in/inputBig.txt
 ```
 
 For the input files in `in/` folder the expected results are: `inputTiny.txt`: 19, `inputBig.txt`: 2407905288
+
+License
+---------------------
+`InversionsCount` is released under the `MIT License`.   
+You can find a copy of this license in [LICENSE.txt](LICENSE.txt).  
