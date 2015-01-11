@@ -141,4 +141,5 @@ MedianMaintenance/C/MedianMaintenance
 PrimMST/C/PrimMST
 DijkstraShortestPath/C/DijkstraShortestPath
 GraphSCC/C/GraphSCC
+GraphMinCuts/C/GraphMinCuts
 
